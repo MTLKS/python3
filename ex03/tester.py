@@ -12,6 +12,7 @@ def main():
     v3 = calculator([10.0, 15.0, 20.0])
     v3 - 5
     v3 / 5
+    print("---")
     v3 / 0
     print("---")
     v4 = calculator([0.0, 1.0, 2.0, 3.0])
