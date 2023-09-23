@@ -30,9 +30,10 @@ class Lannister(Character):
         self.eyes = "blue"
         self.hairs = "light"
 
-    def create_lannister(first_name, is_alive=True):
+    @classmethod
+    def create_lannister(cls, first_name, is_alive=True):
         """Create a Lannister character"""
-        return Lannister(first_name, is_alive)
+        return cls(first_name, is_alive)
 
     def __str__(self):
         """String representation of the Lannister class"""
